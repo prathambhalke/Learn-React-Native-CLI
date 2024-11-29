@@ -5,16 +5,19 @@ import ThemeToggle from "./components/ThemeToggle";
 
 function App() {
   return(
-  //  <SafeAreaView>
-  //      <ScrollView>
-  //       <Text>App</Text>
-  //       <FlatCards />
-  //     </ScrollView> 
-  //     </SafeAreaView>
-      <ThemeToggle />
+    // <ThemeToggle />
+   <SafeAreaView>
+       <ScrollView>
+        <FlatCards />
+      </ScrollView> 
+      </SafeAreaView>
   )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  mainContainer:{
+    backgroundColor:'#1A1A1D'
+  },
+})
 
 export default App;
