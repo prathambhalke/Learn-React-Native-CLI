@@ -4,6 +4,7 @@ import FlatCards from './components/FlatCards';
 import ThemeToggle from './components/ThemeToggle';
 import ElevatedCards from './components/ElevatedCards';
 import FancyCard from './components/FancyCard';
+import ActionCard from './components/ActionCard';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <FlatCards />
         <ElevatedCards />
         <FancyCard />
+        <ActionCard />
       </ScrollView>
     </SafeAreaView>
   );
