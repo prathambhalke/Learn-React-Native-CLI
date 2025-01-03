@@ -5,16 +5,20 @@ import ThemeToggle from './components/ThemeToggle';
 import ElevatedCards from './components/ElevatedCards';
 import FancyCard from './components/FancyCard';
 import ActionCard from './components/ActionCard';
+import ContactList from './components/ContactList';
+import Pass from './components/password_generator/Pass';
 
 function App() {
   return (
     // <ThemeToggle />
     <SafeAreaView>
       <ScrollView horizontal={false}>
-        <FlatCards />
+        {/* <FlatCards />
         <ElevatedCards />
         <FancyCard />
-        <ActionCard />
+        <ContactList />
+        <ActionCard /> */}
+        <Pass />
       </ScrollView>
     </SafeAreaView>
   );
