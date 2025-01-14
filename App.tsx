@@ -7,6 +7,7 @@ import FancyCard from './components/FancyCard';
 import ActionCard from './components/ActionCard';
 import ContactList from './components/ContactList';
 import Pass from './components/password_generator/Pass';
+import PasswordGenerator from './components/password_generator/PasswordGenerator';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <ContactList />
         <ActionCard /> */}
         <Pass />
+        {/* <nerator /> */}
       </ScrollView>
     </SafeAreaView>
   );

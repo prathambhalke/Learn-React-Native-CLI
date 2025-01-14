@@ -40,6 +40,7 @@ export default function Pass() {
     let generatedPass = createPassword(characterList, passwordLength);
     setPassword(generatedPass);
     setIsPasswordGenerated(true);
+    console.log(generatedPass)
   };
 
   const createPassword = (characters: string, passwordLength: number) => {
