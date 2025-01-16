@@ -9,6 +9,7 @@ import ContactList from './components/ContactList';
 import Pass from './components/password_generator/Pass';
 import PasswordGenerator from './components/password_generator/PasswordGenerator';
 import BackgroundGenerator from './components/BackgroundGenerator';
+import DiceGame from './components/DiceGame';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         <ContactList />
         <ActionCard /> */}
         {/* <Pass /> */}
-        <BackgroundGenerator />
+        {/* <BackgroundGenerator /> */}
+        <DiceGame />
       </ScrollView>
     </SafeAreaView>
   );
